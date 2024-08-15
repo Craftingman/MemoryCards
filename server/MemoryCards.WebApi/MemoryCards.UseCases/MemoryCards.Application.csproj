@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MemoryCards.Core\MemoryCards.Core.csproj" />
+  </ItemGroup>
+
 </Project>
