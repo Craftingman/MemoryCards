@@ -7,7 +7,6 @@ namespace MemoryCards.Core.Entities
         public Guid CardCollectionId { get; set; }
         public CardCollection CardCollection { get; set; }
 
-        public ICollection<CardContent> FrontSideContents { get; set; } = new List<CardContent>();
-        public ICollection<CardContent> BackSideContents { get; set; } = new List<CardContent>();
+        public ICollection<CardContent> Contents { get; set; } = new List<CardContent>();
     }
 }

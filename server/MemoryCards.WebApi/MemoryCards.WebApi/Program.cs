@@ -1,3 +1,5 @@
+using MemoryCards.Infrastructure;
+
 namespace MemoryCards.WebApi
 {
     public class Program
@@ -6,8 +8,7 @@ namespace MemoryCards.WebApi
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
-
+            builder.Services.AddInfrastructure(builder.Configuration);
             builder.Services.AddControllers();
 
             var app = builder.Build();
@@ -15,9 +16,7 @@ namespace MemoryCards.WebApi
             // Configure the HTTP request pipeline.
 
             app.UseHttpsRedirection();
-
             app.UseAuthorization();
-
             app.MapControllers();
 
             app.Run();

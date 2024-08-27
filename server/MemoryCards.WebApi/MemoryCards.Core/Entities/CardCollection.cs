@@ -8,5 +8,7 @@ namespace MemoryCards.Core.Entities
 
         public Guid OwnerId { get; set; }
         public AppUser Owner { get; set; }
+
+        public ICollection<Card> Cards { get; set; }
     }
 }
