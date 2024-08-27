@@ -1,11 +1,15 @@
 import { Routes, Route } from "react-router-dom";
-import HomePage from "./pages/HomePage";
+import CardCollectionsPage from "./pages/CardCollectionsPage";
+import Navigation from "./compoents/Navigation";
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-    </Routes>
+    <>
+      <Navigation />
+      <Routes>
+        <Route path="/" element={<CardCollectionsPage />} />
+      </Routes>
+    </>
   );
 }
 
