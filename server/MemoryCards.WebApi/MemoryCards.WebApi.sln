@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemoryCards.WebApi", "Memor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemoryCards.Core", "MemoryCards.Core\MemoryCards.Core.csproj", "{12E4718F-ED19-44E5-BF1A-3694FABBC0FC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemoryCards.UseCases", "MemoryCards.UseCases\MemoryCards.UseCases.csproj", "{F0BE05AC-904C-4455-B6AE-622635CB4CED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemoryCards.Application", "MemoryCards.UseCases\MemoryCards.Application.csproj", "{F0BE05AC-904C-4455-B6AE-622635CB4CED}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MemoryCards.Infrastructure", "MemoryCards.Infrastructure\MemoryCards.Infrastructure.csproj", "{E32FCD56-E72A-4C13-8168-3A8BA33D4D62}"
 EndProject
